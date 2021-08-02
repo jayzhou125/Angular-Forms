@@ -12,7 +12,7 @@ import { UserSettingFormComponent } from './user-setting-form/user-setting-form.
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
