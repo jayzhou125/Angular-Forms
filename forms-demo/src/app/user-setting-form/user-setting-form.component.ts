@@ -24,12 +24,12 @@ export class UserSettingFormComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onSubmit(form: NgForm){
-    console.log('in onSubmit: ', form.valid);
-  }
-
   onBlur(field: NgModel){
     console.log('in onBlur: ', field.valid);
+  }
+
+  onSubmit(form: NgForm){
+    console.log('in onSubmit: ', form.valid);
   }
 
 }
